@@ -1,0 +1,199 @@
+body
+{
+    font-family:  Arial, Helvetica, sans-serif;
+    margin: 0;
+    color: white;
+
+}
+header
+{
+    position:fixed;
+    background-color:#181c20;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 25px;
+    display: flex;
+    /* color: white; */
+    justify-content :space-around;
+    align-items: center;
+}
+header h1
+{
+    margin-left: -190px;
+}
+
+header ul
+{
+    display: flex;
+    list-style: none;
+    margin-right: -50px;
+}
+header ul li 
+{
+    margin-right: 30px;
+}
+header ul li a
+{
+    color: white;
+    text-decoration: none;
+    font-weight: 700;
+
+}
+header ul li :hover
+{
+    color: #2989ff;
+}
+
+#home
+{
+    margin-top: 118px;
+    background-color: #181c20;
+    display: flex;
+    justify-content: space-around;
+}
+#home div img
+{
+    height: 400px;
+    margin: 30px;
+    margin-right: 400px;
+}
+#home div h2
+{
+    font-size:60px;
+    margin-top: 120px;
+    margin-left: 200px;
+}
+#home div h2 span
+{
+    color: #2989ff;
+}
+#home div p
+{
+    font-size:20px;
+    margin-left: 200px;
+    padding-right: 250px;
+}
+#about
+{
+    background-color: #202327;
+    display: flex;
+    justify-content: space-around;
+}
+#about div img
+{
+    height: 400px;
+    margin: 30px;
+    margin-left: 200px;
+}
+#about div h2
+{
+    font-size:40px;
+    margin-top: 160px;
+}
+#about div p
+{
+    font-size:20px;
+    padding-right: 250px;
+    
+}
+#about div h2 span
+{
+    color: #2989ff;
+}
+#projects
+{
+    background-color: #181c20;
+    padding: 50px 120px;
+    
+    
+}
+#projects h1
+{
+    font-size: 40px;
+    text-align: center;
+}
+#cards_container
+{
+    display: flex;
+    justify-content: center;
+}
+.cards
+{
+    background-color: #202327;
+    border-radius: 20px;
+    margin-right: 20px;
+    margin-left:20px ;
+    width: 30%;
+    padding: 30px
+}
+.cards div button a
+{
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+
+    text-decoration: none;
+}
+.cards div button
+{
+    width: 70px;
+    height: 30px;
+    border-radius: 10px;
+    background-color:#2989ff ;
+}
+#projects h1 span
+{
+    color: #2989ff;
+}
+#contact
+{
+    background-color: #202327;
+    padding: 60px;
+    
+}
+#contact ul
+{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+#contact div
+{
+    font-size: 30px;
+    text-align: center;
+    color: #2989ff; 
+}
+#contact ul li a img
+{
+    border-radius: 100px;
+    width: 70px;
+}
+#facebook:hover
+{
+    background: #3B5998;
+    box-shadow: 0 0 20px 5px rgba(10, 102, 194, 0.8);
+}
+
+#insta:hover
+{
+    background: linear-gradient(45deg, #F58529, #DD2A7B, #8134AF, #515BD4, #405DE6);
+    box-shadow: 
+        0 0 10px rgba(255, 105, 180, 0.6), /* Light pink glow */
+        0 0 20px rgba(255, 20, 147, 0.5), /* Deep pink glow */
+        0 0 30px rgba(255, 165, 0, 0.4);
+}
+#linkdin:hover
+{
+    background: #0A66C2;
+    box-shadow: 0 0 20px 5px rgba(10, 102, 194, 0.8);
+}
+#git:hover
+{
+    background: white;
+    box-shadow: 0 0 30px rgba(255, 255, 255, 0.3);
+}
+

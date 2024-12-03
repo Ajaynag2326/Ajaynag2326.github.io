@@ -2,27 +2,27 @@ body
 {
     font-family:  Arial, Helvetica, sans-serif;
     margin: 0;
+    scroll-behavior: smooth;
     color: white;
 
 }
+/* HEADER PART OF PRPJECT */
 header
 {
-    position:fixed;
+    position:sticky;
     background-color:#181c20;
     top: 0;
     left: 0;
     right: 0;
     padding: 25px;
     display: flex;
-    /* color: white; */
     justify-content :space-around;
     align-items: center;
 }
-header h1
+header div  h1
 {
     margin-left: -190px;
 }
-
 header ul
 {
     display: flex;
@@ -45,12 +45,14 @@ header ul li :hover
     color: #2989ff;
 }
 
+/* HOME */
 #home
 {
-    margin-top: 118px;
     background-color: #181c20;
     display: flex;
     justify-content: space-around;
+    padding-top: 100px;
+    padding-bottom: 50px;
 }
 #home div img
 {
@@ -74,37 +76,13 @@ header ul li :hover
     margin-left: 200px;
     padding-right: 250px;
 }
-#about
-{
-    background-color: #202327;
-    display: flex;
-    justify-content: space-around;
-}
-#about div img
-{
-    height: 400px;
-    margin: 30px;
-    margin-left: 200px;
-}
-#about div h2
-{
-    font-size:40px;
-    margin-top: 160px;
-}
-#about div p
-{
-    font-size:20px;
-    padding-right: 250px;
-    
-}
-#about div h2 span
-{
-    color: #2989ff;
-}
+
+/* PROJECTS */
 #projects
 {
-    background-color: #181c20;
-    padding: 50px 120px;
+    background-color: #202327;
+    padding: 50px;
+    padding-top: 100px;
     
     
 }
@@ -146,9 +124,44 @@ header ul li :hover
 {
     color: #2989ff;
 }
-#contact
+/* SERVICES */
+#services
+{
+    background-color: #181c20;
+    padding: 60px;
+}
+/* ABOUT */
+#about
 {
     background-color: #202327;
+    display: flex;
+    justify-content: space-around;
+}
+#about div img
+{
+    height: 400px;
+    margin: 30px;
+    margin-left: 200px;
+}
+#about div h2
+{
+    font-size:40px;
+    margin-top: 160px;
+}
+#about div p
+{
+    font-size:20px;
+    padding-right: 250px;
+    
+}
+#about div h2 span
+{
+    color: #2989ff;
+}
+/* CONTACT */
+#contact
+{
+    background-color: #181c20;
     padding: 60px;
     
 }
@@ -196,4 +209,5 @@ header ul li :hover
     background: white;
     box-shadow: 0 0 30px rgba(255, 255, 255, 0.3);
 }
+
 

@@ -3,8 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="icon" type="image/png" href="assets/images/icon.png">
-    <title>Document</title>
+    <link rel="icon" type="image/png" href="assets/images/icon.png" />
+    <title>AjayNag</title>
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -15,11 +15,12 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css"
     />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
 
-    <link rel="stylesheet" href="assets/css/style.css">
-    <style>
-    </style>
+    <link rel="stylesheet" href="assets/css/style.css" />
   </head>
   <body>
     <div class="container-fluid">
@@ -100,161 +101,156 @@
           <h1 class="text-center p-3">Projects</h1>
         </div>
         <div class="projects-container">
-          <div class="project-card">
-            <div class="d-flex justify-content-center">
-              <img src="assets/images/online.jpeg" class="project-image" />
-            </div>
-            <div class="d-flex justify-content-center">
-              <h2>Online Store</h2>
-            </div>
-            <div class="d-flex justify-content-evenly">
-              <button
-                type="button"
-                class="btn btn-warning project-button"
-                onclick="window.open('https://ajaynag2326.github.io/online_store/', '_blank')"
-              >
-                Visit
-              </button>
-              <button
-                type="button"
-                class="btn btn-warning project-button"
-                onclick="window.open('https://github.com/Ajaynag2326/online_store', '_blank')"
-              >
-                Code
-              </button>
-            </div>
-          </div>
+          <div
+            id="projectsCarousel"
+            class="carousel slide"
+            data-bs-ride="carousel"
+            data-bs-interval="3000"
+            data-bs-wrap="true"
+          >
+            <div class="carousel-inner  ">
+              <div class="carousel-item active">
+                <div class="row">
+                  <div class="col-md-4">
+                    <div
+                      class="project-card"
+                      onclick="window.open('https://ajaynag2326.github.io/online_store/', '_blank')"
+                    >
+                      <div class="d-flex justify-content-center">
+                        <img
+                          src="assets/images/online.jpeg"
+                          class="project-image"
+                        />
+                      </div>
+                      <div class="d-flex justify-content-center">
+                        <h2>Online Store</h2>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div
+                      class="project-card"
+                      onclick="window.open('https://ajaynag2326.github.io/MyBank/', '_blank')"
+                    >
+                      <div class="d-flex justify-content-center">
+                        <img
+                          src="assets/images/bank.jpeg"
+                          class="project-image"
+                        />
+                      </div>
+                      <div class="d-flex justify-content-center">
+                        <h2>My Bank</h2>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div
+                      class="project-card"
+                      onclick="window.open('https://ajaynag2326.github.io/myStore/', '_blank')"
+                    >
+                      <div class="d-flex justify-content-center">
+                        <img
+                          src="assets/images/store.jpeg"
+                          class="project-image"
+                        />
+                      </div>
+                      <div class="d-flex justify-content-center">
+                        <h2>My Store</h2>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
 
-          <div class="project-card">
-            <div class="d-flex justify-content-center">
-              <img src="assets/images/bank.jpeg" class="project-image" />
+              <div class="carousel-item">
+                <div class="row">
+                  <div class="col-md-4">
+                    <div
+                      class="project-card"
+                      onclick="window.open('https://ajaynag2326.github.io/website/', '_blank')"
+                    >
+                      <div class="d-flex justify-content-center">
+                        <img
+                          src="assets/images/mo.jpeg"
+                          class="project-image"
+                        />
+                      </div>
+                      <div class="d-flex justify-content-center">
+                        <h2>Website</h2>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-md-4">
+                    <div
+                      class="project-card"
+                      onclick="window.open('https://ajaynag2326.github.io/socialMedia/', '_blank')"
+                    >
+                      <div class="d-flex justify-content-center">
+                        <img
+                          src="assets/images/sm.jpeg"
+                          class="project-image"
+                        />
+                      </div>
+                      <div class="d-flex justify-content-center">
+                        <h2>Social Media</h2>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-md-4">
+                    <div
+                      class="project-card"
+                      onclick="window.open('https://ajaynag2326.github.io/react-mystore/', '_blank')"
+                    >
+                    <div class="d-flex justify-content-center">
+                        <img src="assets/images/store.jpeg" class="project-image" />
+                      </div>
+                      <div class="d-flex justify-content-center">
+                        <h2>React Store</h2>
+                      </div>
+                    </div>
+                  </div>
+
+                </div>
+              </div>
             </div>
-            <div class="d-flex justify-content-center">
-              <h2>My Bank</h2>
-            </div>
-            <div class="d-flex justify-content-evenly">
-              <button
-                type="button"
-                class="btn btn-warning project-button"
-                onclick="window.open('https://ajaynag2326.github.io/MyBank/', '_blank')"
-              >
-                Visit
-              </button>
-              <button
-                type="button"
-                class="btn btn-warning project-button"
-                onclick="window.open('https://github.com/Ajaynag2326/MyBank', '_blank')"
-              >
-                Code
-              </button>
-            </div>
-          </div>
-          <div class="project-card">
-            <div class="d-flex justify-content-center">
-              <img src="assets/images/store.jpeg" class="project-image" />
-            </div>
-            <div class="d-flex justify-content-center">
-              <h2>My Store</h2>
-            </div>
-            <div class="d-flex justify-content-evenly">
-              <button
-                type="button"
-                class="btn btn-warning project-button"
-                onclick="window.open('https://ajaynag2326.github.io/myStore/', '_blank')"
-              >
-                Visit
-              </button>
-              <button
-                type="button"
-                class="btn btn-warning project-button"
-                onclick="window.open('https://github.com/Ajaynag2326/myStore', '_blank')"
-              >
-                Code
-              </button>
-            </div>
-          </div>
-          <div class="project-card">
-            <div class="d-flex justify-content-center">
-              <img src="assets/images/mo.jpeg" class="project-image" />
-            </div>
-            <div class="d-flex justify-content-center">
-              <h2>Website</h2>
-            </div>
-            <div class="d-flex justify-content-evenly">
-              <button
-                type="button"
-                class="btn btn-warning project-button"
-                onclick="window.open('https://ajaynag2326.github.io/website/', '_blank')"
-              >
-                Visit
-              </button>
-              <button
-                type="button"
-                class="btn btn-warning project-button"
-                onclick="window.open('https://github.com/Ajaynag2326/website', '_blank')"
-              >
-                Code
-              </button>
-            </div>
-          </div>
-          <div class="project-card">
-            <div class="d-flex justify-content-center">
-              <img src="assets/images/sm.jpeg" class="project-image" />
-            </div>
-            <div class="d-flex justify-content-center">
-              <h2>Social Media</h2>
-            </div>
-            <div class="d-flex justify-content-evenly">
-              <button
-                type="button"
-                class="btn btn-warning project-button"
-                onclick="window.open('https://ajaynag2326.github.io/socialMedia/', '_blank')"
-              >
-                Visit
-              </button>
-              <button
-                type="button"
-                class="btn btn-warning project-button"
-                onclick="window.open('https://github.com/Ajaynag2326/socialMedia', '_blank')"
-              >
-                Code
-              </button>
-            </div>
-          </div>
-          <div class="project-card">
-            <div class="d-flex justify-content-center">
-              <img src="assets/images/store.jpeg" class="project-image" />
-            </div>
-            <div class="d-flex justify-content-center">
-              <h2>React Store</h2>
-            </div>
-            <div class="d-flex justify-content-evenly">
-              <button
-                type="button"
-                class="btn btn-warning project-button"
-                onclick="window.open('https://ajaynag2326.github.io/react-mystore/', '_blank')"
-              >
-                Visit
-              </button>
-              <button
-                type="button"
-                class="btn btn-warning project-button"
-                onclick="window.open('https://github.com/Ajaynag2326/react-mystore', '_blank')"
-              >
-                Code
-              </button>
-            </div>
+
+            <!-- Navigation Buttons -->
+            <button
+              class="carousel-control-prev"
+              type="button"
+              data-bs-target="#projectsCarousel"
+              data-bs-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon bg-dark rounded-circle"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button
+              class="carousel-control-next"
+              type="button"
+              data-bs-target="#projectsCarousel"
+              data-bs-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon bg-dark rounded-circle"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Next</span>
+            </button>
           </div>
         </div>
       </div>
 
-      <div class="row text-light service-section " id="services">
+      <div class="row text-light service-section" id="services">
         <div>
           <h1 class="text-center p-3">Services</h1>
         </div>
 
         <div class="service-container mb-5">
-
           <div class="service-card">
             <div class="d-flex justify-content-center">
               <img src="assets/images/web.webp" class="service-image" />
@@ -294,34 +290,48 @@
         <div class="col-lg-4">
           <div class="mt-5 w-100 p-5">
             <h2 class="text-warning mb-4">Hi There!</h2>
-            <h1 class="mb-3">I'm<span class="text-warning"> Ajay Nag,</span></h1>
+            <h1 class="mb-3">
+              I'm<span class="text-warning"> Ajay Nag,</span>
+            </h1>
             <p class="mb-5">
               a passionate Full Stack Developer who enjoys building dynamic and
               user-friendly web applications. With a strong focus on performance
               and scalability, I strive to create seamless digital experiences
               that blend functionality with efficiency.
             </p>
-            <h3>Skills </h3>
-                <button class="btn btn-warning border-3">Java</button>
-                <button class="btn btn-warning border-3">SQL</button>
-                <button class="btn btn-warning border-3">MongoDB</button>
-                <button class="btn btn-warning border-3">React</button>
+            <h3>Skills</h3>
+            <button class="btn btn-warning border-3">Java</button>
+            <button class="btn btn-warning border-3">SQL</button>
+            <button class="btn btn-warning border-3">MongoDB</button>
+            <button class="btn btn-warning border-3">React</button>
           </div>
         </div>
-        <div>
-
-        </div>
+        <div></div>
       </div>
 
       <div class="row text-light contact-section" id="contact">
         <div>
-            <h1 class="text-center p-3">Contact</h1>
+          <h1 class="text-center p-3">Contact</h1>
         </div>
-        <div class="d-flex flex-column justify-content-center align-items-center p-5">
-            <input type="text" class="form-control w-25 mb-3" placeholder="Enter Name">
-            <input type="text" class="form-control w-25 mb-3" placeholder="Enter Email">
-            <textarea rows="3" class="form-control w-25 mb-3" placeholder="Enter Message"></textarea>
-            <button class="form-control w-25 btn btn-warning">Send</button>
+        <div
+          class="d-flex flex-column justify-content-center align-items-center p-5"
+        >
+          <input
+            type="text"
+            class="form-control w-25 mb-3"
+            placeholder="Enter Name"
+          />
+          <input
+            type="text"
+            class="form-control w-25 mb-3"
+            placeholder="Enter Email"
+          />
+          <textarea
+            rows="3"
+            class="form-control w-25 mb-3"
+            placeholder="Enter Message"
+          ></textarea>
+          <button class="form-control w-25 btn btn-warning">Send</button>
         </div>
       </div>
     </div>

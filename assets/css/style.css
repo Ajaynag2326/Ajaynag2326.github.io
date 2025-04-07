@@ -45,14 +45,15 @@
   .project-card:hover {
     transform: scale(1.05);
     box-shadow: 0 8px 16px rgba(255, 255, 255, 0.2);
-    background:#c7eff7;
-    color: black    ;
+    background:#102428;
+    /* color: black    ; */
   }
 
   .project-image {
     width: 220px;
     border-radius: 25px;
     margin-top: 15px;
+    margin-bottom: 25px;
   }
 
   .project-button {
@@ -82,12 +83,6 @@
     border-radius: 25px;
     margin-top: 15px;
     margin-bottom: 10px;
-  }
-  .service-card:hover{
-    transform: scale(1.05);
-    box-shadow: 0 8px 16px rgba(255, 255, 255, 0.2);
-    background: #c7eff7;
-    color: black;
   }
   .about-section {
     background-color: #091a1f;
